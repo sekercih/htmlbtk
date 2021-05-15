@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+
+  <body>
+    <h1>Uyelik formu</h1>
+    <form name="kayit" action="kayit.php" method="GET">
+      Ad soyad:
+      <input
+        type="text"
+        name="adSoyad"
+        id="adSoyad"
+        maxlength="30"
+        required
+      /><br />
+      Email : <input type="email" name="email" id="email" required /><br />
+      Web Sitesi: <input type="url" name="webSitesi" id="websitesi" /><br />
+      Yaşınız :
+      <input type="number" name="yaşınız" id="yas" min="1" required /><br />
+      <input type="submit" value="Gonder" />
+      <input type="reset" value="Temizle" />
+    </form>
+  </body>
+</html>

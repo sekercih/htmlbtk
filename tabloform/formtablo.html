@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Tablo</title>
+  </head>
+  <body>
+    <h1>Üye kayıt Formu :</h1>
+    <form action="kayit.php" name="kayit">
+      <table>
+        <tr>
+          <td>Ad Soyad</td>
+          <td>
+            <input placeholder="adsoyad" type="text" name="Adsoyad" required />
+          </td>
+        </tr>
+        <tr>
+          <td>Email :</td>
+          <td>
+            <input
+              placeholder="email girin"
+              type="email"
+              name="email"
+              id="email"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Web Sitesi :</td>
+          <td><input type="url" name="web" id="web" /></td>
+        </tr>
+        <tr>
+          <td>Yaşınız</td>
+          <td><input autocomplete="email" type="number" min="1" required /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" name="Gonder" id="gonder" value="Gonder" />
+
+            <input type="reset" value="Temizle" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
