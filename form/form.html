@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formlar Özellikler</title>
+    <style>
+      input[type="text"],
+      input[type="email"] {
+        background-color: yellow;
+        font-size: 10px;
+      }
+      textarea {
+        color: blue;
+        border-color: red;
+      }
+      .formeleman {
+        border-style: dotted;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="formeleman">
+      Ad Soyad <input class="formeleman" type="text" /><br />
+      Email: <input class="formeleman" type="email" /><br />
+      Mesaj: <textarea class="formeleman" cols="30" rows="4"></textarea><br />
+      <input class="formeleman" type="submit" /><input class="formeleman" type="reset" />
+    </form>
+  </body>
+</html>
